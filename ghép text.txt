@@ -1,0 +1,14 @@
+bài toán ghép text
+
+cho ô A1
+hello
+
+cho ô B1
+world
+
+kết quả mong muốn
+hello world
+
+
+cách làm
+= A1 & " " & B1
