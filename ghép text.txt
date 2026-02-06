@@ -43,3 +43,11 @@ Phương pháp                                 Công thức cụ thể          
 Toán tử                     &               =A1 & " " & B1                          "Nhanh, không cần nhớ tên hàm."
 Hàm                         CONCAT          =CONCAT(A1, " ", B1)                    "Trực quan, dễ hiểu cho người mới."
 Hàm                         TEXTJOIN        =TEXTJOIN(" ", TRUE, A1:B1)             Rất mạnh khi nối nhiều ô hoặc một vùng dữ liệu.
+
+
+
+
+
+bài toán nối chuỗi từ ô L4 đến ô W4
+ở giữa phân tách bằng dấu phẩy
+=TEXTJOIN(", ", TRUE, L4:W4)
